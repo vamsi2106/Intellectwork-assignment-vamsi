@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: #222222;
+}
+
+.Homepage {
+    background-size: cover;
+    padding-left: 80px;
+}
+
+.navbar-color {
+    width: 1280px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #222222;
+}
+
+.top-navbar-items {
+    width: 476px;
+    height: 24px;
+    margin-left: 402px;
+}
+
+#navitem1 {
+    color: white !important;
+}
+
+#navitem2 {
+    color: white !important;
+}
+
+#navitem3 {
+    color: white !important;
+}
+
+#navitem4 {
+    color: white !important;
+}
+
+#navitem5 {
+    color: white !important;
+}
+
+.login-button {
+    outline: none;
+    border: 0px solid;
+    width: 133px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: #FF7665;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner-section {
+    width: 1280px;
+    height: 656px;
+    border-radius: 16px;
+    background-color: #f6fcf9;
+}
+
+.banner-hotel-img {
+    width: 674px;
+    height: 657px;
+    padding-top: -1px;
+    margin-left: -45px;
+    border-radius: 16px;
+}
+
+.banner-main-text {
+    width: 499px;
+    height: 240px;
+    color: #000000;
+    margin-top: 71px;
+    margin-left: 60px;
+    font-size: 64px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.banner-caption {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 515px;
+    height: 64px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.banner-video-card {
+    margin-top: 20px;
+    width: 220px;
+    height: 55px;
+    margin-left: 60px;
+}
+
+.play-button-icon {
+    padding-top: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    color: #F95F5F;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.play-watch-text {
+    color: #222222;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.search-feild-top-section {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
+    margin-top: -150px;
+    margin-left: 140px;
+    border-radius: 280px;
+    background-color: #ffffff;
+}
+
+.search-box {
+    margin: 24px;
+    width: 114px;
+    height: 48px;
+}
+
+.search-icon-img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-box-heading {
+    font-size: 20px;
+    width: 100px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.search-box-text-content {
+    margin-left: 14px;
+}
+
+.search-box-place {
+    width: 100px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.search-box-place-2 {
+    width: 120px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.search-button {
+    outline: none;
+    border: 0px solid;
+    width: 350px;
+    height: 100px;
+    margin-left: 160px;
+    border-radius: 280px;
+    background-color: #FF7665;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.rooms-section {
+    width: 1280px;
+    height: 656px;
+    margin-top: 80px;
+}
+
+.rooms-section-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    width: 600px;
+    font-family: "Open Sans";
+}
+
+.view-all-btn {
+    outline: none;
+    border: 0px solid;
+    width: 109px;
+    height: 40px;
+    margin-left: 1171px;
+    border-radius: 280px;
+    background-color: rgba(255, 118, 101, 0.4);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.hotel-rooms-card-container {
+    width: 411px;
+    height: 480px;
+    border-radius: 16px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.hotel-rooms-card-img {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    width: 411px;
+    height: 320px;
+}
+
+.rooms-card-description-card {
+    width: 302px;
+    height: 72px;
+    margin-left: 16px;
+    margin-top: 40px;
+}
+
+.rooms-card-heading {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(34, 34, 34, 1);
+}
+
+.hotel-features-section {
+    width: 1279px;
+    height: 410px;
+    margin-top: 60px;
+}
+
+.hotel-features-contact-button {
+    margin-top: 20px;
+    border: 0px solid;
+    width: 164px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: #FF7665;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.hotel-features-card-img {
+    width: 50px;
+    height: 50px;
+}
+
+.hotel-features-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    width: 193px;
+    height: 193px;
+    border-radius: 8px;
+}
+
+.hotel-discover-section {
+    width: 1280px;
+    height: 520px;
+    border-radius: 16px;
+    margin-top: 100px;
+    background-color: rgba(244, 251, 248, 1);
+}
+
+.hotel-discover-cover-img {
+    width: 660px;
+    height: 520px;
+    margin-left: -20px;
+    border-radius: 16px;
+}
+
+.hotel-discover-description {
+    width: 497px;
+    height: 368px;
+    margin: 40px;
+    margin-top: 70px;
+}
+
+.explore-more-button {
+    border: 0px solid;
+    width: 164px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: #FF7665;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.hotel-faq-section {
+    width: 1279px;
+    height: 495px;
+    margin-top: 80px;
+    border-radius: 5px
+}
+
+#faq-card-1 {
+    background-color: white;
+}
+
+.faq-arrow {
+    height: 36px;
+    width: 36px;
+}
+
+.visit-us-section {
+    width: 1280px;
+    height: 677px;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+    background-image: url("https://res.cloudinary.com/dfuu1l6na/image/upload/v1696449284/c6b9d6a7-aa8a-4c2c-be85-ce6e60a21b51_wue45e.jpg");
+}
+
+.visit-us-card-container {
+    border-radius: 16px;
+    margin-top: 435px;
+    margin-left: 43px;
+    padding: 30px;
+    width: 1194px;
+    height: 199px;
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+input {
+    width: 250px;
+    height: 56px;
+    border-radius: 50px;
+    outline: none;
+    border: 0px solid transparent;
+    background-color: #FAFAFA;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+}
+
+.hotel-features-contact-button-1 {
+    border: 0px solid;
+    width: 164px;
+    height: 56px;
+    margin-left: -50px;
+    border-radius: 35px;
+    background-color: #FF7665;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.triangle {
+    margin-top: 105px;
+    width: 0px;
+    text-align: center;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #FF7665;
+}
+
+.footer-section {
+    height: 343px;
+    background-size: cover;
+    background-color: #FF7665;
+}
+
+.footer-container {
+    padding-top: 50px;
+    width: 1342px;
+    height: 208px;
+}
+
+.social-media-logo {
+    height: 30px;
+    margin: 10px;
+}
